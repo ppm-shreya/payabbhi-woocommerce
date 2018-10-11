@@ -9,7 +9,7 @@ Author: Payabbhi Team
 Author URI: https://payabbhi.com
 */
 
-require_once 'payabbhi-php/init.php';
+require_once('vendor/autoload.php');
 
 add_action('plugins_loaded', 'init_payabbhi_woocommerce', 0);
 
